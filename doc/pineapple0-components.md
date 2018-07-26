@@ -35,7 +35,7 @@
 ## 基板とケース
 
 * Pineapple Zero 基板
-* Pineapple Zer52ケース
+* Pineapple Zero ケース
 
 ## 電源
 
