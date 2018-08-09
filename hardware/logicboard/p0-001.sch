@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -11782,7 +11782,7 @@ Copyright 2015-2018  by Pineapple Design</text>
 <pinref part="MIDIOUT" gate="J$1" pin="1"/>
 </segment>
 </net>
-<net name="COM1" class="0">
+<net name="RX" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="RO"/>
 <wire x1="63.5" y1="45.72" x2="60.96" y2="45.72" width="0.1524" layer="91"/>
@@ -11810,7 +11810,7 @@ Copyright 2015-2018  by Pineapple Design</text>
 <label x="111.76" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="MUTE" class="0">
+<net name="TXMUTE" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="81.28" x2="78.74" y2="78.74" width="0.1524" layer="91"/>
