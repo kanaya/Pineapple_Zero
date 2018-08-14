@@ -19668,7 +19668,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="137.16" y1="76.2" x2="147.32" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="MIDIOUT-RAW" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="IC1" gate="A" pin="O"/>
@@ -19688,7 +19688,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="TX" gate="J$1" pin="1"/>
 </segment>
 </net>
-<net name="N$15" class="0">
+<net name="MIDIINA" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="48.26" y1="96.52" x2="53.34" y2="96.52" width="0.1524" layer="91"/>
@@ -19766,7 +19766,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="MIDIIN" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="COM2" class="0">
+<net name="MIDIIN" class="0">
 <segment>
 <pinref part="OK1" gate="A" pin="VO"/>
 <wire x1="88.9" y1="96.52" x2="99.06" y2="96.52" width="0.1524" layer="91"/>
@@ -19789,7 +19789,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="MIDIOUT" gate="J$1" pin="1"/>
 </segment>
 </net>
-<net name="RX" class="0">
+<net name="MIDIOUT" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="RO"/>
 <wire x1="78.74" y1="66.04" x2="76.2" y2="66.04" width="0.1524" layer="91"/>
@@ -19802,14 +19802,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="76.2" y="66.04"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="IND" class="0">
 <segment>
 <pinref part="IC1" gate="B" pin="O"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="81.28" x2="99.06" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="INDICATOR" class="0">
+<net name="INDR" class="0">
 <segment>
 <pinref part="FRONT" gate="G$1" pin="3"/>
 <pinref part="R5" gate="G$1" pin="1"/>
