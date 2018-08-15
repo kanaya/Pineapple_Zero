@@ -19438,7 +19438,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
-<text x="215.9" y="20.32" size="1.778" layer="94">Pineapple Zero 1.0.1</text>
+<text x="215.9" y="20.32" size="1.778" layer="94">Pineapple Zero 1.1.0</text>
 </plain>
 <instances>
 <instance part="R3" gate="G$1" x="45.72" y="66.04" rot="MR0"/>
