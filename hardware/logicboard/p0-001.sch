@@ -18714,8 +18714,8 @@ CONN_05
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.254" drill="0.254">
-<clearance class="0" value="0.254"/>
+<class number="0" name="default" width="0.1524" drill="0.1524">
+<clearance class="0" value="0.1524"/>
 </class>
 </classes>
 <parts>
@@ -19172,16 +19172,15 @@ CONN_05
 </sheet>
 </sheets>
 <errors>
-<approved hash="101,1,167.64,55.88,IC1C,O,,,,"/>
-<approved hash="101,1,167.64,43.18,IC1D,O,,,,"/>
-<approved hash="101,1,167.64,30.48,IC1E,O,,,,"/>
-<approved hash="101,1,167.64,17.78,IC1F,O,,,,"/>
-<approved hash="113,1,9.48267,17.7123,J3,,,,,"/>
-<approved hash="113,1,9.48267,73.5923,J1,,,,,"/>
-<approved hash="113,1,135.297,45.7877,J6,,,,,"/>
-<approved hash="113,1,9.48267,46.9223,J2,,,,,"/>
-<approved hash="113,1,135.297,85.1577,J5,,,,,"/>
-<approved hash="113,1,135.297,61.0277,J4,,,,,"/>
+<approved hash="101,1,246.38,142.24,IC1C,O,,,,"/>
+<approved hash="101,1,246.38,129.54,IC1D,O,,,,"/>
+<approved hash="101,1,246.38,116.84,IC1E,O,,,,"/>
+<approved hash="101,1,246.38,104.14,IC1F,O,,,,"/>
+<approved hash="113,1,24.7227,38.0323,PWR5V,,,,,"/>
+<approved hash="113,1,150.537,81.3477,FRONT,,,,,"/>
+<approved hash="113,1,130.071,89.431,FRAME1,,,,,"/>
+<approved hash="113,1,24.7227,64.7023,MIDI,,,,,"/>
+<approved hash="113,1,170.857,100.262,COM,,,,,"/>
 </errors>
 </schematic>
 </drawing>
