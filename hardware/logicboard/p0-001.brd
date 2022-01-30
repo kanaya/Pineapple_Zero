@@ -9,8 +9,8 @@
 </settings>
 <grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -224,10 +224,10 @@
 <text x="65" y="52.5" size="1" layer="25" align="center">MIDI IN</text>
 <text x="45.5" y="4" size="1" layer="25" align="center">RX</text>
 <text x="65" y="4" size="1" layer="25" align="center">TX</text>
-<text x="62" y="28.5" size="1" layer="25" align="center">RX</text>
-<text x="75" y="28.5" size="1" layer="25" align="center">TX</text>
-<text x="6" y="28.5" size="1" layer="25" align="center">IN</text>
-<text x="22" y="28.5" size="1" layer="25" align="center">OUT/THRU</text>
+<text x="61" y="28.5" size="1" layer="25" align="center">RX</text>
+<text x="74" y="28.5" size="1" layer="25" align="center">TX</text>
+<text x="5" y="28.5" size="1" layer="25" align="center">IN</text>
+<text x="20" y="28.5" size="1" layer="25" align="center">OUT/THRU</text>
 <polygon width="0.2" layer="22">
 <vertex x="26" y="53"/>
 <vertex x="25" y="51"/>
@@ -271,6 +271,9 @@
 <wire x1="39" y1="16.5" x2="40.96" y2="16.5" width="0.15" layer="21"/>
 <text x="45.5" y="2" size="1" layer="25" align="center">Neltron 7810-8P8C</text>
 <text x="65" y="2" size="1" layer="25" align="center">Neltron 7810-8P8C</text>
+<text x="66.5" y="28.5" size="1" layer="25" align="center">75176</text>
+<text x="79.5" y="28.5" size="1" layer="25" align="center">75176</text>
+<text x="10" y="28.5" size="1" layer="25" align="center">TLP2630</text>
 </plain>
 <libraries>
 <library name="linear-technology" urn="urn:adsk.eagle:library:261">
