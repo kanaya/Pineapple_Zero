@@ -274,6 +274,11 @@
 <text x="66.5" y="28.5" size="1" layer="25" align="center">75176</text>
 <text x="79.5" y="28.5" size="1" layer="25" align="center">75176</text>
 <text x="10" y="28.5" size="1" layer="25" align="center">TLP2630</text>
+<text x="14.5" y="40" size="1" layer="25" align="center">THRU</text>
+<text x="76.5" y="40" size="1" layer="25" align="center">IN</text>
+<text x="45.5" y="37" size="1" layer="25" align="center">OUT</text>
+<text x="35" y="11.5" size="1" layer="25" align="center">RX</text>
+<text x="75.5" y="11.5" size="1" layer="25" align="center">TX</text>
 </plain>
 <libraries>
 <library name="linear-technology" urn="urn:adsk.eagle:library:261">
