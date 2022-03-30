@@ -19022,18 +19022,12 @@ CA 95125 (408)494-0330&lt;br&gt;
 <pad name="S2" x="8.125" y="-4.84" drill="1.5" diameter="2.1844"/>
 <text x="0" y="-10" size="1" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="1" size="1" layer="27" align="center">&gt;VALUE</text>
-<hole x="-7.4" y="0" drill="2.4"/>
-<hole x="7.4" y="0" drill="2.4"/>
-<hole x="4.59" y="-4.84" drill="0.9"/>
-<hole x="-4.59" y="-2.3" drill="0.9"/>
+<hole x="-7.4" y="0" drill="2.6"/>
+<hole x="7.4" y="0" drill="2.6"/>
 <circle x="-7.4" y="0" radius="1.8" width="0.15" layer="41"/>
 <circle x="7.4" y="0" radius="1.8" width="0.15" layer="41"/>
-<circle x="-4.59" y="-2.3" radius="1" width="0.15" layer="41"/>
-<circle x="4.59" y="-4.84" radius="1" width="0.15" layer="41"/>
 <circle x="-7.4" y="0" radius="1.8" width="0.15" layer="42"/>
 <circle x="7.4" y="0" radius="1.8" width="0.15" layer="42"/>
-<circle x="-4.59" y="-2.3" radius="1" width="0.15" layer="42"/>
-<circle x="4.59" y="-4.84" radius="1" width="0.15" layer="42"/>
 </package>
 </packages>
 <symbols>
