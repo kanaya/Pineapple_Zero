@@ -19235,6 +19235,9 @@ Source: GLX-S-88M.pdf</description>
 <sheet>
 <plain>
 <text x="215.9" y="20.32" size="1.778" layer="94">Pineapple Zero 1.2.0</text>
+<text x="35.56" y="114.3" size="1.778" layer="94">MIDI IN</text>
+<text x="35.56" y="83.82" size="1.778" layer="94">MIDI THRU</text>
+<text x="35.56" y="53.34" size="1.778" layer="94">MIDI OUT</text>
 </plain>
 <instances>
 <instance part="D1" gate="G$1" x="66.04" y="124.46" smashed="yes">
@@ -19255,8 +19258,8 @@ Source: GLX-S-88M.pdf</description>
 <instance part="SUPPLY5" gate="GND" x="119.38" y="50.8" smashed="yes">
 <attribute name="VALUE" x="117.475" y="47.625" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY4" gate="G$1" x="109.22" y="137.16" smashed="yes">
-<attribute name="VALUE" x="107.315" y="140.335" size="1.778" layer="96"/>
+<instance part="SUPPLY4" gate="G$1" x="109.22" y="167.64" smashed="yes">
+<attribute name="VALUE" x="107.315" y="170.815" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY14" gate="GND" x="144.78" y="114.3" smashed="yes">
 <attribute name="VALUE" x="142.875" y="111.125" size="1.778" layer="96"/>
@@ -19300,8 +19303,8 @@ Source: GLX-S-88M.pdf</description>
 <instance part="SUPPLY6" gate="G$1" x="30.48" y="167.64" smashed="yes">
 <attribute name="VALUE" x="28.575" y="170.815" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY13" gate="G$1" x="144.78" y="137.16" smashed="yes">
-<attribute name="VALUE" x="142.875" y="140.335" size="1.778" layer="96"/>
+<instance part="SUPPLY13" gate="G$1" x="144.78" y="167.64" smashed="yes">
+<attribute name="VALUE" x="142.875" y="170.815" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY2" gate="G$1" x="60.96" y="76.2" smashed="yes">
 <attribute name="VALUE" x="59.055" y="79.375" size="1.778" layer="96"/>
@@ -19631,7 +19634,7 @@ Source: GLX-S-88M.pdf</description>
 </segment>
 <segment>
 <pinref part="SUPPLY13" gate="G$1" pin="VCC"/>
-<wire x1="144.78" y1="132.08" x2="144.78" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="132.08" x2="144.78" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="G$1" pin="VCC"/>
 <wire x1="142.24" y1="132.08" x2="144.78" y2="132.08" width="0.1524" layer="91"/>
 </segment>
@@ -19643,7 +19646,7 @@ Source: GLX-S-88M.pdf</description>
 </segment>
 <segment>
 <pinref part="SUPPLY4" gate="G$1" pin="VCC"/>
-<wire x1="109.22" y1="134.62" x2="109.22" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="165.1" x2="109.22" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="OK1" gate="A" pin="VCC"/>
 <wire x1="109.22" y1="129.54" x2="109.22" y2="127" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="127" x2="106.68" y2="127" width="0.1524" layer="91"/>
@@ -19783,6 +19786,9 @@ Source: GLX-S-88M.pdf</description>
 <pinref part="IC1" gate="C" pin="I"/>
 <wire x1="119.38" y1="93.98" x2="116.84" y2="93.98" width="0.1524" layer="91"/>
 <junction x="116.84" y="93.98"/>
+<pinref part="RN2" gate="1" pin="2"/>
+<wire x1="71.12" y1="152.4" x2="116.84" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="152.4" x2="116.84" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="NMIDITHRU" class="0">
@@ -19790,13 +19796,13 @@ Source: GLX-S-88M.pdf</description>
 <pinref part="IC1" gate="A" pin="O"/>
 <pinref part="IC1" gate="B" pin="I"/>
 <wire x1="93.98" y1="93.98" x2="88.9" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="RN2" gate="1" pin="2"/>
 <wire x1="88.9" y1="93.98" x2="86.36" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="152.4" x2="76.2" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="152.4" x2="76.2" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="106.68" x2="88.9" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="106.68" x2="88.9" y2="93.98" width="0.1524" layer="91"/>
 <junction x="88.9" y="93.98"/>
+<pinref part="RN2" gate="1" pin="4"/>
+<wire x1="71.12" y1="142.24" x2="76.2" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="142.24" x2="76.2" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MTRTN" class="0">
@@ -19826,13 +19832,13 @@ Source: GLX-S-88M.pdf</description>
 <pinref part="IC1" gate="D" pin="O"/>
 <pinref part="IC1" gate="E" pin="I"/>
 <wire x1="93.98" y1="63.5" x2="91.44" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="RN2" gate="1" pin="3"/>
 <wire x1="91.44" y1="63.5" x2="86.36" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="147.32" x2="78.74" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="147.32" x2="78.74" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="104.14" x2="91.44" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="104.14" x2="91.44" y2="63.5" width="0.1524" layer="91"/>
 <junction x="91.44" y="63.5"/>
+<pinref part="RN2" gate="1" pin="5"/>
+<wire x1="71.12" y1="137.16" x2="78.74" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="137.16" x2="78.74" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MIDIINLED" class="0">
