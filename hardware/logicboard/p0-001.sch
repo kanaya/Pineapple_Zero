@@ -19800,9 +19800,9 @@ Source: GLX-S-88M.pdf</description>
 <wire x1="76.2" y1="106.68" x2="88.9" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="106.68" x2="88.9" y2="93.98" width="0.1524" layer="91"/>
 <junction x="88.9" y="93.98"/>
-<pinref part="RN2" gate="1" pin="4"/>
-<wire x1="71.12" y1="142.24" x2="76.2" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="142.24" x2="76.2" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="147.32" x2="76.2" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="RN2" gate="1" pin="3"/>
+<wire x1="71.12" y1="147.32" x2="76.2" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MTRTN" class="0">
