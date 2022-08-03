@@ -19021,9 +19021,9 @@ Source: GLX-S-88M.pdf</description>
 <attribute name="NAME" x="96.52" y="90.805" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="96.52" y="99.06" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="IC1" gate="C" x="88.9" y="33.02" smashed="yes">
-<attribute name="NAME" x="91.44" y="36.195" size="1.778" layer="95"/>
-<attribute name="VALUE" x="91.44" y="27.94" size="1.778" layer="96"/>
+<instance part="IC1" gate="C" x="154.94" y="93.98" smashed="yes">
+<attribute name="NAME" x="157.48" y="97.155" size="1.778" layer="95"/>
+<attribute name="VALUE" x="157.48" y="88.9" size="1.778" layer="96"/>
 </instance>
 <instance part="IC1" gate="D" x="129.54" y="63.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="127" y="60.325" size="1.778" layer="95" rot="R180"/>
@@ -19092,16 +19092,16 @@ Source: GLX-S-88M.pdf</description>
 <instance part="SUPPLY29" gate="GND" x="25.4" y="10.16" smashed="yes">
 <attribute name="VALUE" x="23.495" y="6.985" size="1.778" layer="96"/>
 </instance>
-<instance part="LED2" gate="G$1" x="58.42" y="137.16" smashed="yes">
-<attribute name="NAME" x="61.976" y="132.588" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="64.135" y="132.588" size="1.778" layer="96" rot="R90"/>
+<instance part="LED2" gate="G$1" x="172.72" y="93.98" smashed="yes" rot="R270">
+<attribute name="NAME" x="168.148" y="90.424" size="1.778" layer="95"/>
+<attribute name="VALUE" x="168.148" y="88.265" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY30" gate="G$1" x="198.12" y="86.36" smashed="yes">
-<attribute name="VALUE" x="196.215" y="89.535" size="1.778" layer="96"/>
+<instance part="SUPPLY30" gate="G$1" x="190.5" y="101.6" smashed="yes">
+<attribute name="VALUE" x="188.595" y="104.775" size="1.778" layer="96"/>
 </instance>
-<instance part="LED3" gate="G$1" x="175.26" y="81.28" smashed="yes" rot="R270">
-<attribute name="NAME" x="170.688" y="77.724" size="1.778" layer="95"/>
-<attribute name="VALUE" x="170.688" y="75.565" size="1.778" layer="96"/>
+<instance part="LED3" gate="G$1" x="172.72" y="81.28" smashed="yes" rot="R270">
+<attribute name="NAME" x="168.148" y="77.724" size="1.778" layer="95"/>
+<attribute name="VALUE" x="168.148" y="75.565" size="1.778" layer="96"/>
 </instance>
 <instance part="R9" gate="G$1" x="182.88" y="66.04" smashed="yes">
 <attribute name="NAME" x="179.07" y="67.5386" size="1.778" layer="95"/>
@@ -19139,13 +19139,13 @@ Source: GLX-S-88M.pdf</description>
 <attribute name="NAME" x="72.39" y="64.9986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="72.39" y="60.198" size="1.778" layer="96"/>
 </instance>
-<instance part="R7L2" gate="G$1" x="68.58" y="134.62" smashed="yes" rot="R90">
-<attribute name="NAME" x="67.0814" y="130.81" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="71.882" y="130.81" size="1.778" layer="96" rot="R90"/>
+<instance part="R7L2" gate="G$1" x="182.88" y="93.98" smashed="yes">
+<attribute name="NAME" x="179.07" y="95.4786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="179.07" y="90.678" size="1.778" layer="96"/>
 </instance>
-<instance part="R8L3" gate="G$1" x="187.96" y="81.28" smashed="yes">
-<attribute name="NAME" x="184.15" y="82.7786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="184.15" y="77.978" size="1.778" layer="96"/>
+<instance part="R8L3" gate="G$1" x="182.88" y="81.28" smashed="yes">
+<attribute name="NAME" x="179.07" y="82.7786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="179.07" y="77.978" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -19262,10 +19262,6 @@ Source: GLX-S-88M.pdf</description>
 <wire x1="76.2" y1="15.24" x2="76.2" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="15.24" x2="76.2" y2="15.24" width="0.1524" layer="91"/>
 <junction x="76.2" y="15.24"/>
-<pinref part="IC1" gate="C" pin="I"/>
-<wire x1="78.74" y1="33.02" x2="76.2" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="33.02" x2="76.2" y2="20.32" width="0.1524" layer="91"/>
-<junction x="76.2" y="20.32"/>
 </segment>
 <segment>
 <pinref part="LED1" gate="G$1" pin="C"/>
@@ -19349,9 +19345,13 @@ Source: GLX-S-88M.pdf</description>
 </segment>
 <segment>
 <pinref part="SUPPLY30" gate="G$1" pin="VCC"/>
-<wire x1="198.12" y1="83.82" x2="198.12" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="99.06" x2="190.5" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="R8L3" gate="G$1" pin="2"/>
-<wire x1="198.12" y1="81.28" x2="193.04" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="93.98" x2="190.5" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="81.28" x2="187.96" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="R7L2" gate="G$1" pin="2"/>
+<wire x1="187.96" y1="93.98" x2="190.5" y2="93.98" width="0.1524" layer="91"/>
+<junction x="190.5" y="93.98"/>
 </segment>
 <segment>
 <pinref part="SUPPLY28" gate="G$1" pin="VCC"/>
@@ -19392,11 +19392,7 @@ Source: GLX-S-88M.pdf</description>
 <wire x1="45.72" y1="137.16" x2="45.72" y2="121.92" width="0.1524" layer="91"/>
 <junction x="86.36" y="121.92"/>
 <pinref part="OK1" gate="A" pin="C1"/>
-<wire x1="45.72" y1="121.92" x2="58.42" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="LED2" gate="G$1" pin="C"/>
-<wire x1="58.42" y1="121.92" x2="86.36" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="132.08" x2="58.42" y2="121.92" width="0.1524" layer="91"/>
-<junction x="58.42" y="121.92"/>
+<wire x1="45.72" y1="121.92" x2="86.36" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RX+" class="0">
@@ -19458,6 +19454,9 @@ Source: GLX-S-88M.pdf</description>
 <pinref part="RN2" gate="1" pin="2"/>
 <wire x1="93.98" y1="152.4" x2="142.24" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="152.4" x2="142.24" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="C" pin="I"/>
+<wire x1="144.78" y1="93.98" x2="142.24" y2="93.98" width="0.1524" layer="91"/>
+<junction x="142.24" y="93.98"/>
 </segment>
 </net>
 <net name="NMIDITHRU" class="0">
@@ -19514,11 +19513,7 @@ Source: GLX-S-88M.pdf</description>
 <segment>
 <pinref part="J1" gate="G$1" pin="4"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="71.12" y1="127" x2="68.58" y2="127" width="0.1524" layer="91"/>
-<pinref part="R7L2" gate="G$1" pin="1"/>
-<wire x1="68.58" y1="127" x2="33.02" y2="127" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="127" x2="68.58" y2="129.54" width="0.1524" layer="91"/>
-<junction x="68.58" y="127"/>
+<wire x1="71.12" y1="127" x2="33.02" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MOSND" class="0">
@@ -19549,27 +19544,18 @@ Source: GLX-S-88M.pdf</description>
 <pinref part="R4" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="R7L2" gate="G$1" pin="2"/>
-<wire x1="68.58" y1="139.7" x2="68.58" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="142.24" x2="58.42" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="LED2" gate="G$1" pin="A"/>
-<wire x1="58.42" y1="142.24" x2="58.42" y2="139.7" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="R8L3" gate="G$1" pin="1"/>
 <pinref part="LED3" gate="G$1" pin="A"/>
-<wire x1="182.88" y1="81.28" x2="177.8" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="81.28" x2="175.26" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="LED3" gate="G$1" pin="C"/>
 <pinref part="IC1" gate="F" pin="O"/>
-<wire x1="170.18" y1="81.28" x2="165.1" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="81.28" x2="165.1" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -19577,6 +19563,20 @@ Source: GLX-S-88M.pdf</description>
 <pinref part="R6L1" gate="G$1" pin="1"/>
 <pinref part="LED1" gate="G$1" pin="A"/>
 <wire x1="25.4" y1="25.4" x2="25.4" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="IC1" gate="C" pin="O"/>
+<pinref part="LED2" gate="G$1" pin="C"/>
+<wire x1="165.1" y1="93.98" x2="167.64" y2="93.98" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="LED2" gate="G$1" pin="A"/>
+<pinref part="R7L2" gate="G$1" pin="1"/>
+<wire x1="175.26" y1="93.98" x2="177.8" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
