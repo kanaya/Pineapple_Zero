@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -226,10 +226,10 @@ PF10-4-7</text>
 <text x="65" y="52.5" size="1" layer="25" align="center">MIDI IN</text>
 <text x="45.5" y="4" size="1" layer="25" align="center">RX</text>
 <text x="65" y="4" size="1" layer="25" align="center">TX</text>
-<text x="61" y="28.5" size="1" layer="25" align="center">RX</text>
-<text x="74" y="28.5" size="1" layer="25" align="center">TX</text>
-<text x="5" y="28.5" size="1" layer="25" align="center">IN</text>
-<text x="20" y="28.5" size="1" layer="25" align="center">OUT/THRU</text>
+<text x="60.5" y="28.5" size="1" layer="25" align="center-left">RX</text>
+<text x="73.5" y="28.5" size="1" layer="25" align="center-left">TX</text>
+<text x="4.5" y="28.5" size="1" layer="25" align="center-left">IN</text>
+<text x="16.5" y="28.5" size="1" layer="25" align="center-left">OUT/THRU</text>
 <polygon width="0.2" layer="22">
 <vertex x="26" y="53"/>
 <vertex x="25" y="51"/>
@@ -251,7 +251,7 @@ PF10-4-7</text>
 <text x="68" y="20" size="1" layer="25" rot="R90" align="center">101</text>
 <text x="29" y="20" size="1" layer="25" rot="R90" align="center">105</text>
 <text x="44.23" y="25" size="1" layer="25" rot="R90" align="center-right">221</text>
-<text x="30" y="28.5" size="1" layer="25" align="center">7406</text>
+<text x="32.5" y="28.5" size="1" layer="25" align="center-right">7406</text>
 <text x="64" y="18" size="1" layer="25" align="center">RX Terminator</text>
 <text x="50.58" y="16.5" size="1" layer="25" align="center">MIDI OUT</text>
 <text x="39" y="16.5" size="1" layer="25" align="center-right">MIDI IN</text>
@@ -263,9 +263,9 @@ PF10-4-7</text>
 <wire x1="39" y1="16.5" x2="40.96" y2="16.5" width="0.15" layer="21"/>
 <text x="45.5" y="2" size="1" layer="25" align="center">Neltron 7810-8P8C</text>
 <text x="65" y="2" size="1" layer="25" align="center">Neltron 7810-8P8C</text>
-<text x="66.5" y="28.5" size="1" layer="25" align="center">LTC485</text>
-<text x="79.5" y="28.5" size="1" layer="25" align="center">LTC485</text>
-<text x="10" y="28.5" size="1" layer="25" align="center">TLP2630</text>
+<text x="68.5" y="28.5" size="1" layer="25" align="center-right">LTC485</text>
+<text x="81.5" y="28.5" size="1" layer="25" align="center-right">LTC485</text>
+<text x="12.5" y="28.5" size="1" layer="25" align="center-right">TLP2630</text>
 <text x="14.5" y="40" size="1" layer="25" align="center">OUT</text>
 <text x="76.5" y="40" size="1" layer="25" align="center">IN</text>
 <text x="45.5" y="37" size="1" layer="25" align="center">THRU</text>
