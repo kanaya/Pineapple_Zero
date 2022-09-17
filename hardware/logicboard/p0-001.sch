@@ -18863,10 +18863,10 @@ Source: GLX-S-88M.pdf</description>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S-COPPER" value="OSHW-LOGOS-COPPER"/>
 <part name="U$1" library="pineapple" deviceset="PINEAPPLE450" device=""/>
-<part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="DIN5" device="" package3d_urn="urn:adsk.eagle:package:38294/1"/>
-<part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="DIN5" device="" package3d_urn="urn:adsk.eagle:package:38294/1"/>
+<part name="J7" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="DIN5" device="" package3d_urn="urn:adsk.eagle:package:38294/1"/>
+<part name="J9" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="DIN5" device="" package3d_urn="urn:adsk.eagle:package:38294/1"/>
 <part name="J0" library="con-jack" library_urn="urn:adsk.eagle:library:154" deviceset="JACK-PLUG" device="0" package3d_urn="urn:adsk.eagle:package:7492/1" value="DC5V"/>
-<part name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="DIN5" device="" package3d_urn="urn:adsk.eagle:package:38294/1"/>
+<part name="J8" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="DIN5" device="" package3d_urn="urn:adsk.eagle:package:38294/1"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="OK1" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="HCPL2630" device="" package3d_urn="urn:adsk.eagle:package:21941/1"/>
 <part name="IC1" library="74xx-us" library_urn="urn:adsk.eagle:library:88" deviceset="74*05" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="ALS"/>
@@ -18890,8 +18890,8 @@ Source: GLX-S-88M.pdf</description>
 <part name="SUPPLY30" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1" value="YELLOW"/>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1" value="100"/>
-<part name="X1" library="con-rj45" deviceset="NELTRON-7810-XPXC" device=""/>
-<part name="X2" library="con-rj45" deviceset="NELTRON-7810-XPXC" device=""/>
+<part name="X9" library="con-rj45" deviceset="NELTRON-7810-XPXC" device=""/>
+<part name="X7" library="con-rj45" deviceset="NELTRON-7810-XPXC" device=""/>
 <part name="R6L1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1" value="1k"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1" value="220"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1" value="220"/>
@@ -18986,11 +18986,11 @@ Source: GLX-S-88M.pdf</description>
 </instance>
 <instance part="LOGO1" gate="G$1" x="241.3" y="165.1" smashed="yes"/>
 <instance part="U$1" gate="G$1" x="187.96" y="7.62" smashed="yes"/>
-<instance part="J1" gate="G$1" x="25.4" y="121.92" smashed="yes">
+<instance part="J7" gate="G$1" x="25.4" y="121.92" smashed="yes">
 <attribute name="NAME" x="25.4" y="116.332" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="25.4" y="114.046" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="J2" gate="G$1" x="25.4" y="63.5" smashed="yes">
+<instance part="J9" gate="G$1" x="25.4" y="63.5" smashed="yes">
 <attribute name="NAME" x="25.4" y="57.912" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="25.4" y="55.626" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
@@ -18998,7 +18998,7 @@ Source: GLX-S-88M.pdf</description>
 <attribute name="NAME" x="15.24" y="165.1" size="1.778" layer="95"/>
 <attribute name="VALUE" x="15.24" y="154.94" size="1.778" layer="96"/>
 </instance>
-<instance part="J3" gate="G$1" x="25.4" y="93.98" smashed="yes">
+<instance part="J8" gate="G$1" x="25.4" y="93.98" smashed="yes">
 <attribute name="NAME" x="25.4" y="88.392" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="25.4" y="86.106" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
@@ -19107,11 +19107,11 @@ Source: GLX-S-88M.pdf</description>
 <attribute name="NAME" x="179.07" y="67.5386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="179.07" y="62.738" size="1.778" layer="96"/>
 </instance>
-<instance part="X1" gate="G$1" x="198.12" y="119.38" smashed="yes">
+<instance part="X9" gate="G$1" x="198.12" y="119.38" smashed="yes">
 <attribute name="NAME" x="201.93" y="130.048" size="1.778" layer="95"/>
 <attribute name="VALUE" x="201.93" y="108.458" size="1.778" layer="96"/>
 </instance>
-<instance part="X2" gate="G$1" x="198.12" y="50.8" smashed="yes">
+<instance part="X7" gate="G$1" x="198.12" y="50.8" smashed="yes">
 <attribute name="NAME" x="201.93" y="61.468" size="1.778" layer="95"/>
 <attribute name="VALUE" x="201.93" y="39.878" size="1.778" layer="96"/>
 </instance>
@@ -19220,14 +19220,14 @@ Source: GLX-S-88M.pdf</description>
 <wire x1="132.08" y1="121.92" x2="132.08" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="2"/>
+<pinref part="J8" gate="G$1" pin="2"/>
 <wire x1="25.4" y1="104.14" x2="25.4" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="SUPPLY22" gate="GND" pin="GND"/>
 <wire x1="25.4" y1="106.68" x2="7.62" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="106.68" x2="7.62" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="2"/>
+<pinref part="J9" gate="G$1" pin="2"/>
 <wire x1="25.4" y1="73.66" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="76.2" x2="7.62" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="76.2" x2="7.62" y2="50.8" width="0.1524" layer="91"/>
@@ -19240,8 +19240,8 @@ Source: GLX-S-88M.pdf</description>
 <pinref part="SUPPLY25" gate="GND" pin="GND"/>
 <wire x1="198.12" y1="104.14" x2="198.12" y2="101.6" width="0.1524" layer="91"/>
 <junction x="198.12" y="104.14"/>
-<pinref part="X1" gate="G$1" pin="S2"/>
-<pinref part="X1" gate="G$1" pin="S1"/>
+<pinref part="X9" gate="G$1" pin="S2"/>
+<pinref part="X9" gate="G$1" pin="S1"/>
 </segment>
 <segment>
 <wire x1="200.66" y1="38.1" x2="200.66" y2="35.56" width="0.1524" layer="91"/>
@@ -19250,8 +19250,8 @@ Source: GLX-S-88M.pdf</description>
 <pinref part="SUPPLY26" gate="GND" pin="GND"/>
 <wire x1="198.12" y1="35.56" x2="198.12" y2="33.02" width="0.1524" layer="91"/>
 <junction x="198.12" y="35.56"/>
-<pinref part="X2" gate="G$1" pin="S2"/>
-<pinref part="X2" gate="G$1" pin="S1"/>
+<pinref part="X7" gate="G$1" pin="S2"/>
+<pinref part="X7" gate="G$1" pin="S1"/>
 </segment>
 <segment>
 <pinref part="OK1" gate="B" pin="A2"/>
@@ -19364,7 +19364,7 @@ Source: GLX-S-88M.pdf</description>
 <pinref part="IC3" gate="G$1" pin="A"/>
 <wire x1="165.1" y1="129.54" x2="195.58" y2="129.54" width="0.1524" layer="91"/>
 <label x="167.64" y="129.54" size="1.778" layer="95"/>
-<pinref part="X1" gate="G$1" pin="1"/>
+<pinref part="X9" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="MIDIIN" class="0">
@@ -19385,7 +19385,7 @@ Source: GLX-S-88M.pdf</description>
 <wire x1="86.36" y1="121.92" x2="86.36" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="124.46" x2="88.9" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="121.92" x2="86.36" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="5"/>
+<pinref part="J7" gate="G$1" pin="5"/>
 <wire x1="17.78" y1="127" x2="15.24" y2="127" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="127" x2="15.24" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="137.16" x2="45.72" y2="137.16" width="0.1524" layer="91"/>
@@ -19405,7 +19405,7 @@ Source: GLX-S-88M.pdf</description>
 <wire x1="177.8" y1="66.04" x2="175.26" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="66.04" x2="175.26" y2="60.96" width="0.1524" layer="91"/>
 <junction x="175.26" y="60.96"/>
-<pinref part="X2" gate="G$1" pin="1"/>
+<pinref part="X7" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="TX-" class="0">
@@ -19413,7 +19413,7 @@ Source: GLX-S-88M.pdf</description>
 <pinref part="IC3" gate="G$1" pin="B"/>
 <wire x1="165.1" y1="127" x2="195.58" y2="127" width="0.1524" layer="91"/>
 <label x="167.64" y="127" size="1.778" layer="95"/>
-<pinref part="X1" gate="G$1" pin="2"/>
+<pinref part="X9" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="RX" class="0">
@@ -19438,7 +19438,7 @@ Source: GLX-S-88M.pdf</description>
 <wire x1="187.96" y1="66.04" x2="190.5" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="66.04" x2="190.5" y2="58.42" width="0.1524" layer="91"/>
 <junction x="190.5" y="58.42"/>
-<pinref part="X2" gate="G$1" pin="2"/>
+<pinref part="X7" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="TX" class="0">
@@ -19475,7 +19475,7 @@ Source: GLX-S-88M.pdf</description>
 </net>
 <net name="MTRTN" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="5"/>
+<pinref part="J8" gate="G$1" pin="5"/>
 <wire x1="17.78" y1="99.06" x2="15.24" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="99.06" x2="15.24" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="109.22" x2="45.72" y2="109.22" width="0.1524" layer="91"/>
@@ -19486,7 +19486,7 @@ Source: GLX-S-88M.pdf</description>
 </net>
 <net name="MORTN" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="5"/>
+<pinref part="J9" gate="G$1" pin="5"/>
 <wire x1="17.78" y1="68.58" x2="15.24" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="68.58" x2="15.24" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="78.74" x2="45.72" y2="78.74" width="0.1524" layer="91"/>
@@ -19511,14 +19511,14 @@ Source: GLX-S-88M.pdf</description>
 </net>
 <net name="MISND" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="4"/>
+<pinref part="J7" gate="G$1" pin="4"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="71.12" y1="127" x2="33.02" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MOSND" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="4"/>
+<pinref part="J9" gate="G$1" pin="4"/>
 <wire x1="71.12" y1="68.58" x2="33.02" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 </segment>
@@ -19539,7 +19539,7 @@ Source: GLX-S-88M.pdf</description>
 </net>
 <net name="MTSND" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="4"/>
+<pinref part="J8" gate="G$1" pin="4"/>
 <wire x1="71.12" y1="99.06" x2="33.02" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 </segment>
